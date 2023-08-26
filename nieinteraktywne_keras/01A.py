@@ -22,7 +22,7 @@ model.add(Dense(units=1, input_dim=2, activation='linear', use_bias=False))
 model.compile(optimizer='sgd', loss='mean_squared_error')
 
 # Trenowanie modelu
-model.fit(normalized_train_X, Y_train, epochs=100)
+model.fit(normalized_train_X, Y_train, epochs=1000)
 
 # Przewidywanie na nowych danych
 
